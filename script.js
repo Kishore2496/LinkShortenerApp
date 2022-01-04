@@ -1,4 +1,4 @@
-var accessToeken = "d2bb61ca8d14b04e57f4a90a6c21a76b5457c13d";
+var accessToeken = "";
 var baseURL = "https://api-ssl.bitly.com/v4";
 var shortURL;
 
