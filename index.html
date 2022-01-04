@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="./script.js"></script>
+  </head>
+  <body>
+    <div class="input-area">
+      <input
+        type="text"
+        id="shorten-url"
+        size="50px"
+        placeholder="Enter URL"
+        value=""
+      />
+      <br /><br />
+      <button class="generate-btn" onclick="shorten()">Generate URL</button>
+
+      <br /><br />
+      <p id="final-url"></p>
+      <button class="copy-btn" onclick="copyToClip()">
+        Copy to Clipboard!
+      </button>
+    </div>
+  </body>
+</html>
